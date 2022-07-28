@@ -27,7 +27,7 @@ let router=new VueRouter({
       }
 })
 
-//全局守卫：前置守卫（在路由跳转之间尽心判断）
+//全局守卫：前置守卫（在路由跳转之间进行判断）
 router.beforeEach(async (to,from,next)=>{
     //to:可以获取到你要跳转到哪个路由信息
     // from:可以获取到你从哪个路由而来的信息
